@@ -130,12 +130,6 @@ await waitUntilTableExists({ client, maxWaitTime: 60, minDelay: 2, maxDelay: 5 }
 
 - ✅ Use waiters for all state-changing operations.
 - ⏳ Set appropriate timeouts.
-- ⚠️ Always implement `try...catch` for errors.
-- 🔁 Use retry logic with backoff.
-- 📊 Monitor table/index statuses.
-- ♻️ Understand eventual consistency, especially for GSIs.
-- ⚙️ Initialize SDK clients outside Lambda handlers.
-- 📆 Use batch operations when possible.
 - 📡 Design for asynchronous behavior (e.g., DynamoDB Streams).
 
 ---
